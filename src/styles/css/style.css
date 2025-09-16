@@ -1,0 +1,23 @@
+body{
+    max-width: 90%;
+    border: 2px solid black;
+    margin: 5% auto;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(153, 153, 153);
+}
+
+
+.section-Capa{
+    background-color: rgb(153, 153, 153);
+}
+
+.section-Texto{
+    background-color: aqua;
+    
+}
