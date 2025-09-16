@@ -1,23 +1,72 @@
-body{
-    max-width: 90%;
-    border: 2px solid black;
-    margin: 5% auto;
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(153, 153, 153);
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header figure img {
+    max-height: 60px;
+}
+
+header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 
-.section-Capa{
-    background-color: rgb(153, 153, 153);
+main section figure img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-.section-Texto{
-    background-color: aqua;
-    
+
+section article {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section article h2{
+    color: #0056b3;
+}
+
+h2, h3 {
+    color: #0056b3;
+}
+
+section article p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
 }
